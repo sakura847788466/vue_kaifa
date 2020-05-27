@@ -1,0 +1,41 @@
+'# fileType为url_pdf
+{
+    "fileType":"url_pdf",
+    "printData":"https://www.dascomyun.cn/Openapi_Web/fapiao.pdf"
+}
+# fileType为pdf或photo
+{
+    "fileType":"photo",
+    "printData":base64字符串
+}
+{
+    "fileType":"pdf",
+    "printData":base64字符串
+}
+# fileType为html_url
+{
+    "fileType":"html_url",
+    "printData":"https://www.baidu.com"
+}
+# fileType为html_code
+{
+    "fileType":"html_code",
+    "printData":[
+        "<!DOCTYPE html>
+                  <html>
+                    <head><meta charset='UTF-8'><title></title></head>
+                    <body>"<h1>第一页</h1>"</body>
+                  </html>",
+        "<!DOCTYPE html>
+                  <html>
+                    <head><meta charset='UTF-8'><title></title></head>
+                    <body><h1>第二页</h1></body>
+                  </html>",
+        "<!DOCTYPE html>
+                  <html>
+                    <head><meta charset='UTF-8'><title></title></head>
+                    <body><h1>第三页</h1></body>
+                  </html>"
+        ]
+}
+'
